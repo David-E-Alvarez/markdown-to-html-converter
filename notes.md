@@ -2,7 +2,7 @@
 > converter app so that it can handle the conversion of basic 
 > Markdown constructs into HTML elements."
 
-##user stories:
+## user stories:
 1. You should have a function named convertMarkdown that takes no parameters.
 2. The convertMarkdown function should use regular expressions to convert the markdown input from #markdown-input into HTML and should return a string containing the HTML code.
 3. The convertMarkdown function should convert headings of level one, two, and three into the corresponding h1, h2, and h3 elements. A heading in markdown is indicated by as many # character as its level followed by a space and the heading text. # characters should be placed at the beginning of the line: there can be spaces but no other characters before it.
